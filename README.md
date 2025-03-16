@@ -1,8 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Overview
+
+Users can search for GitHub users by username. If a valid username is entered, user's profile information are displayed: name, profile picture, bio description, up to 10 repositories and up to 10 create and/or push events. Under each repository are shown its total counts of forks, stars and watches and the programming language (if any). By clicking on name user is redirected to profile on GitHub, as well as clicking on repositories redirects user to repository's page on GitHub.
+
+### Link
+- [Demo Website](https://julianastahelin.github.io/fetch-github-api/) 
+- [GitHub Api Documentation](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28)
+
+### Tech Stack
+- [Tailwind](https://v3.tailwindcss.com/)
+- [Tanstack React Query](https://tanstack.com/query/latest)
+- [Material UI](https://mui.com/material-ui/getting-started/)
 
 ## Getting Started
 
-First, run the development server:
+install the project
+```bash
+npm install
+# or
+yarn
+```
+
+run the development server:
 
 ```bash
 npm run dev
@@ -28,9 +46,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
