@@ -6,6 +6,11 @@ Users can search for GitHub users by username. If a valid username is entered, u
 - [Demo Website](https://julianastahelin.github.io/fetch-github-api/) 
 - [GitHub Api Documentation](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28)
 
+### Tech Stack
+- [Tailwind](https://v3.tailwindcss.com/)
+- [Tanstack React Query](https://tanstack.com/query/latest)
+- [Material UI](https://mui.com/material-ui/getting-started/)
+
 ## Getting Started
 
 install the project
@@ -41,9 +46,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
