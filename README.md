@@ -3,7 +3,7 @@
 Users can search for GitHub users by username. If a valid username is entered, user's profile information are displayed: name, profile picture, bio description, up to 10 repositories and up to 10 create and/or push events. Under each repository are shown its total counts of forks, stars and watches and the programming language (if any). By clicking on name user is redirected to profile on GitHub, as well as clicking on repositories redirects user to repository's page on GitHub.
 
 ### Link
-- [Demo Website](https://julianastahelin.github.io/fetch-github-api/) 
+- [Demo Website](https://github-consume-api.vercel.app/) 
 - [GitHub Api Documentation](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28)
 
 ### Tech Stack
