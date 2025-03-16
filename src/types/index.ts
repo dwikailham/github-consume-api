@@ -143,6 +143,3 @@ export type TDetailRepos = {
   watchers: number;
   default_branch: string;
 };
-
-// https://julianastahelin.github.io/fetch-github-api/
-// https://www.material-tailwind.com/docs/html/card
