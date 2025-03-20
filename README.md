@@ -14,7 +14,7 @@ Users can search for GitHub users by username. If a valid username is entered, u
 ## Getting Started
 
 
-Create `.env` file with key value, for `NEXT_PUBLIC_ACCESS_TOKEN` is mandatory to headers at API_HOST, you can generate access token in link (here)[https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/about-authentication-with-a-github-app]
+Create `.env` file with key value, for `NEXT_PUBLIC_ACCESS_TOKEN` is mandatory to headers at API_HOST, you can generate access token in link [here](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/about-authentication-with-a-github-app)
 
 ```bash
 NEXT_PUBLIC_API_HOST=https://api.github.com
