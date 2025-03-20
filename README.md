@@ -13,6 +13,17 @@ Users can search for GitHub users by username. If a valid username is entered, u
 
 ## Getting Started
 
+
+Create `.env` file with key value 
+
+```bash
+NEXT_PUBLIC_API_HOST=https://api.github.com
+
+# you can generate access token in link (here)[https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/about-authentication-with-a-github-app]
+NEXT_PUBLIC_ACCESS_TOKEN=
+```
+
+
 install the project
 ```bash
 npm install
